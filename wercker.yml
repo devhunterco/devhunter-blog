@@ -8,4 +8,4 @@ deploy:
     - lukevivier/gh-pages:
         token: $GIT_TOKEN
         domain: blog.devhunter.co
-        basedir: build
+        basedir: public
