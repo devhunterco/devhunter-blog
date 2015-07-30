@@ -7,6 +7,10 @@ slug = "una-iniciativa-para-fomentar-emprendimiento"
 in = "blog"
 +++
 
+
+DEMO
+====
+
 Las comunidades locales son un gran forma de construir grandes cosas, cosas que no podrías hacer solo. La construcción de las pirámides de Egipto son un gran ejemplo ello. Hoy quiero empezar a construir algo y quiero hacerlo con una comunidad local. Quiero emprender.
 
 #### Puede ser divertido
