@@ -1,6 +1,7 @@
 box: debian
 build:
   steps:
+    - apt-get install git
     - arjen/hugo-build:
         version: "0.14"
 deploy:
