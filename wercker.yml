@@ -1,4 +1,4 @@
-box: debian
+box: wercker/default@0.0.2
 build:
   steps:
     - apt-get install git
