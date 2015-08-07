@@ -8,7 +8,16 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+  <title>
+    {{if eq .URL "/"}}
+    Blog &middot; {{ .Site.Title }}
+    {{else}}
+
+    {{.Title}} &middot;  {{ .Site.Title }}
+
+    {{end}}
+
+  </title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/poole.css">
@@ -16,9 +25,24 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/hyde.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/favicon.png">
+  <!--Icons-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff"/>
 
   <!-- RSS -->
   <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
@@ -26,3 +50,5 @@
   <link rel="stylesheet" href="/css/prism.css" data-noprefix />
   <script type="text/javascript" src="/js/gravatar.js"> </script>
 </head>
+
+<a style="float:right; margin-right:200px; margin-top:50px;" class="btn-primary-2 btn-lg call-to-action" href="/discusiones/topic/publish/"><span class="icon-github"></span> Contribuir</a>
