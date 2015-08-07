@@ -32,7 +32,8 @@ $lorem = Copyright (c) 2015 Copyright Holder All Rights Reserved.
 
 Amamos python
 
-{{< highlight py >}}
+<pre><code class="language-python">
+
 def LetterChanges(str):
     s = ""
     v = ["a", "e", "i", "o", "u"]
@@ -46,7 +47,10 @@ def LetterChanges(str):
         else:
             s += letra
     return s
-{{< /highlight >}}
+
+</code></pre>
+
+
 
 Colons can be used to align columns.
 
@@ -95,9 +99,10 @@ Underscores
 - Or minuses
 + Or pluses
 
-`Tambien nodejs`
+`Tambien Javascript`
 
-{{< highlight js >}}
+<pre><code class="language-javascript">
+
 var express = require('express'),
     app = express(),
     http = require('http').Server(app),
@@ -179,4 +184,5 @@ function startStreaming(io) {
 
 
 board = new five.Board({ port: "/dev/ttyACM0" });
-{{< /highlight >}}
+
+</code></pre>
