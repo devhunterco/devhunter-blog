@@ -14,7 +14,12 @@
         <li><a stye="text-transform:uppercase" href="{{.URL}}"> {{ .Name }} </a></li>
       {{end}}
     </ul>
+    <br>
 
-    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img style="margin:0; opacity:0.4;" alt="Creative Commons License"  src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
+
+    <p style="font-size:12px;">
+        <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Devhunter blog</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License.</a>
+    </p>
   </div>
 </div>
