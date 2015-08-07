@@ -3,6 +3,8 @@ date = "2014-02-06"
 draft = false
 title = "Contenido de prueba"
 summary = "Leeme para conocer los elementos que puedes hacer en markdown"
+author_user_devhunter = "uzi200"
+author_mail = "julioc255io@gmail.com"
 +++
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="o3HT4dc" data-context="false"><a href="//imgur.com/o3HT4dc">Most Viral Edit: Thanks so much!I will try to add the rest of the clip when I get some time. Gotta do some work first. Thanks again for the love!</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>

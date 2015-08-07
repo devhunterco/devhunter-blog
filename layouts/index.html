@@ -8,17 +8,26 @@
 
       {{ range .Data.Pages }}
   <div class="post">
+
+
+          <script type="text/javascript">
+              document.write('<img class="img-circle" src="' + get_gravatar('{{ .Params.author_mail}}', 50) + '" />'
+              );
+          </script>
+
+          <a class="username" href='https://devhunter.co/{{ .Params.author_user_devhunter}}'>@{{ .Params.author_user_devhunter}}</a>
+          <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+
+
     <h1 class="post-title">
       <a href="{{ .Permalink }}">
         {{ .Title }}
       </a>
     </h1>
 
-    <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-
-    {{ .Params.summary }}
-    <br>
-    <br>
+    <p style="color: rgba(0,0,0,0.44)">
+        {{ .Params.summary }}
+    </p>
     <div class="read-more-link">
           <a href="{{ .Permalink }}"> Leer Más…</a>
     </div>
@@ -26,6 +35,8 @@
   {{ end }}
 </div>
 </div>
-    
+
+
+    </script>
   </body>
 </html>
