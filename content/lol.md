@@ -1,6 +1,5 @@
 +++
 date = "2014-02-06"
-draft = false
 title = "Contenido de prueba"
 summary = "Leeme para conocer los elementos que puedes hacer en markdown"
 author_user_devhunter = "uzi200"
