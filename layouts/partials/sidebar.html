@@ -1,16 +1,16 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <img  style="width:70%" src="DevHunter-Logo-300.png" alt="" />
+      <img  style="width:70%" src="/DevHunter-Logo-300.png" alt="" />
       <p class="lead">
       {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
       </p>
     </div>
 
     <ul class="sidebar-nav">
-      <li><a href="/">Posts</a> </li>
+        <li><a  href="/"> Inicio </a></li>
       {{ range .Site.Menus.main }}
-        <li><a href="{{.URL}}"> {{ .Name }} </a></li>
+        <li><a stye="text-transform:uppercase" href="{{.URL}}"> {{ .Name }} </a></li>
       {{end}}
     </ul>
 
