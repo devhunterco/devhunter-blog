@@ -59,13 +59,20 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #454545;
 }
+
+.contrib-btn{
+    float:right;
+    margin-right:200px;
+    margin-top:50px;
+}
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 15rem;
     text-align: left;
   }
 }
