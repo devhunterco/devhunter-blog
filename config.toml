@@ -3,15 +3,15 @@ title = "Devhunter"
 
 [[menu.main]]
   name = "Discusiones"
-  url = "http://devhunter.co/discusiones"
+  url = "http://devhunter.co/discusiones/"
 
 [[menu.main]]
   name = "Agenda"
-  url = "http://devhunter.co/agenda"
+  url = "http://devhunter.co/agenda/"
 
 [[menu.main]]
   name = "Sobre"
-  url = "http://devhunter.co/sobre"
+  url = "http://devhunter.co/sobre/"
 
 
 [params]
