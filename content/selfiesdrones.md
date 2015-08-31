@@ -1,7 +1,7 @@
 +++
-date = "2015-08-20"
-title = "Web Semantica"
-summary = "Selfies evolucionan con los drones"
+date = "2015-08-31"
+title = "Selfies evolucionan con los drones"
+summary = "Actualmente los drones, se han convertido en objeto de uso cotidiano, y es inevitable en no pensar en ellos para uso personal como lo es tomarnos foto, personales, o con nuestros amigos, en cualquier momento, asi que conoscamos como avanza esta tecnologia."
 author_user_devhunter = "ivajo26"
 author_mail = "ivajodimo26@gmail.com"
 +++
