@@ -41,4 +41,4 @@ Durante este tiempo brindamos charlas, asesorías, talleres y concursos con la i
 
 #### Premiamos la mejor idea
 
-![ganador](http://blog.devhunter.co/img/appdays/easybeat.jpg)
+![ganador](http://blog.devhunter.co/img/appdays/easybet.png)
